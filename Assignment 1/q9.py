@@ -1,0 +1,7 @@
+print("Enter the marks for 5 students")
+m1 = int(input())
+m2 = int(input())
+m3 = int(input())
+m4 = int(input())
+m5 = int(input())
+print(f"Avg marks = {(m1+m2+m3+m4+m5)/5}")

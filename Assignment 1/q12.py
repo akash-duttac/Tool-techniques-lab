@@ -1,0 +1,6 @@
+p = float(input("Enter principal: "))
+r = float(input("Enter rate(%): "))
+t = float(input("Enter time(in years): "))
+n = int(input("Enter no. of times interest is compounded per year: "))
+print(f"Simple Interest = Rs. {p*r*t}")
+print(f"Compound Interest = Rs. {p*((1+r/n)**(n*t))}")

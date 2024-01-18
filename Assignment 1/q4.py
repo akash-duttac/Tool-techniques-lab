@@ -1,0 +1,5 @@
+basic = int(input("Enter the basic salary: "))
+print(f"TA: Rs. {0.2*basic}")
+print(f"DA: Rs. {1.2*basic}")
+print(f"HRA: Rs. {0.3*basic}")
+print(f"Gross: Rs. {2.7*basic}")
