@@ -1,0 +1,1 @@
+print("Akash\n"*10)
